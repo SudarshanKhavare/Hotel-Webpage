@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dreamland Hotel</title>
+    <link rel="stylesheet" href="styles 1.css" />
+  </head>
+  <body>
+    <header>
+      
+      <div class="container">
+        <h1>SILVER OAK RESORT</h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#booking">Booking</a></li>
+          </ul>
+        </nav>
+        <img src="logo.jpeg" alt="Logo" class="logo">
+      </div>
+    </header>
+
+    <section id="home">
+      <div class="hero">
+        <marquee>
+          <h2>Welcome to Silver Oak Resort</h2>
+        </marquee>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>
+        Experience luxury and comfort at Dreamland Hotel, where we offer
+        exceptional services to make your stay unforgettable. Our hotel features
+        elegant rooms, world-class amenities, and a friendly staff dedicated to
+        your satisfaction.
+      </p>
+    </section>
+
+    <section id="services" class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>24/7 Room Service</li>
+        <li>Free Wi-Fi</li>
+        <li>Spa & Wellness Center</li>
+        <li>Swimming Pool</li>
+        <li>Restaurant & Kids Park</li>
+      </ul>
+    </section>
+
+    <section id="gallery" class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="hotel room.jpg" alt="Hotel Room" />
+        <img
+          src="swimming pool.jpg"
+          alt="Swimming Pool"
+        />
+        <img src="spa.jpg" alt="Spa" />
+        <img src="restaurant.jpg" alt="Restaurant" />
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <p>Address: MIDC Road, Shirala City, Maharashtra</p>
+      <p>Phone: 9404752323</p>
+      <p>Email: silveroak@gmail.com</p>
+    </section>
+
+    <section id="booking" class="container">
+      <h2>Book Your Stay Now</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required />
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required />
+        <label for="roomtype">Room Type:</label>
+        <select id="roomtype" name="roomtype" required>
+          <option value="single">Single</option>
+          <option value="double">Double</option>
+          <option value="suite">Suite</option>
+        </select>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Silver Oak Resort All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
